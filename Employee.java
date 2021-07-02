@@ -6,6 +6,8 @@ abstract class Employee
      int age;
      int sal;
      String Designation;
+     static String Company="Prodapt";
+     static String Location="Chennai";
      
      Scanner sc=new Scanner(System.in);
 
@@ -25,7 +27,9 @@ abstract class Employee
          System.out.println(" Name        :"+this.name);
          System.out.println(" Age         :"+this.age);
          System.out.println(" Sal         :"+this.sal);
-        System.out.println(" Designation :"+this.Designation);
+         System.out.println(" Designation :"+this.Designation);
+	 System.out.println(" Sal         :"+this.Company);	
+         System.out.println(" Sal         :"+this.Location);
          }
          
      
